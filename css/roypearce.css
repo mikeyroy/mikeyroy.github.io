@@ -1,5 +1,105 @@
 :root {
-	--bg-img: '../images/backgrounds/IMG_1309.jpg';
+	--bg-img: none;
+}
+
+.bg-0 {
+	--bg-img: url('../images/backgrounds/IMG_1309.jpg');
+}
+
+.bg-1 {
+	--bg-img: url('../images/backgrounds/IMG_1337.jpg');
+}
+
+.bg-2 {
+	--bg-img: url('../images/backgrounds/IMG_1340.jpg');
+}
+
+.bg-3 {
+	--bg-img: url('../images/backgrounds/IMG_1349.jpg');
+}
+
+.bg-4 {
+	--bg-img: url('../images/backgrounds/IMG_1350.jpg');
+}
+
+.bg-5 {
+	--bg-img: url('../images/backgrounds/IMG_2068.jpg');
+}
+
+.bg-6 {
+	--bg-img: url('../images/backgrounds/IMG_2085.jpg');
+}
+
+.bg-7 {
+	--bg-img: url('../images/backgrounds/IMG_2119.jpg');
+}
+
+.bg-8 {
+	--bg-img: url('../images/backgrounds/IMG_2129.jpg');
+}
+
+.bg-9 {
+	--bg-img: url('../images/backgrounds/IMG_2303.jpg');
+}
+
+.bg-10 {
+	--bg-img: url('../images/backgrounds/IMG_2310.jpg');
+}
+
+.bg-11 {
+	--bg-img: url('../images/backgrounds/IMG_2317.jpg');
+}
+
+.bg-12 {
+	--bg-img: url('../images/backgrounds/IMG_2479.jpg');
+}
+
+.bg-13 {
+	--bg-img: url('../images/backgrounds/IMG_4825.jpg');
+}
+
+.bg-14 {
+	--bg-img: url('../images/backgrounds/IMG_4850.jpg');
+}
+
+.bg-15 {
+	--bg-img: url('../images/backgrounds/IMG_4852.jpg');
+}
+
+.bg-16 {
+	--bg-img: url('../images/backgrounds/IMG_4853.jpg');
+}
+
+.bg-17 {
+	--bg-img: url('../images/backgrounds/IMG_4854.jpg');
+}
+
+.bg-18 {
+	--bg-img: url('../images/backgrounds/IMG_4855.jpg');
+}
+
+.bg-19 {
+	--bg-img: url('../images/backgrounds/IMG_4856.jpg');
+}
+
+.bg-20 {
+	--bg-img: url('../images/backgrounds/IMG_8801-HDR.jpg');
+}
+
+.bg-21 {
+	--bg-img: url('../images/backgrounds/IMG_8820-HDR.jpg');
+}
+
+.bg-22 {
+	--bg-img: url('../images/backgrounds/IMG_8846-HDR.jpg');
+}
+
+.bg-23 {
+	--bg-img: url('../images/backgrounds/IMG_8892-HDR.jpg');
+}
+
+.bg-24 {
+	--bg-img: url('../images/backgrounds/IMG_8895-HDR.jpg');
 }
 
 html {
@@ -9,7 +109,7 @@ html {
 body {
 	font-family: 'Metrophobic', sans-serif;
 	margin: 0;
-	background: url(var(--bg-img)) no-repeat center center fixed;
+	background: var(--bg-img) no-repeat center center fixed;
 	background-size: 100%;
 	background-size: cover;
 	overflow-y: hidden;
