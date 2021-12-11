@@ -1,0 +1,13 @@
+{
+  "short_name": "Roy Pearce",
+  "name": "Roy Pearce",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#2196F3",
+  "theme_color": "#2196F3",
+  "icons": [{
+    "src": "/images/m.ico",
+    "sizes": "72x72 96x96 128x128 256x256 512x512"
+  }]
+}

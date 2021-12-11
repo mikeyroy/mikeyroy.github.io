@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol viewBox="0 0 100 100" id="hex-border">
+        <title>hex-border</title>
+        <polygon points="50,0 100,25 100,75 50,100 0,75 0,25 50,0 52,5 5,27 5,73 50,95 95,73 95,27 50,5" fill="rgb(0, 0, 0)" />
+    </symbol>
+
+    <symbol viewBox="0 0 100 100" id="hex-inner">
+        <title>hex-inner</title>
+        <polygon points="50,0 100,25 100,75 50,100 0,75 0,25" fill="rgb(100, 100, 100)" fill-opacity="0.3" />
+    </symbol>
+</svg>

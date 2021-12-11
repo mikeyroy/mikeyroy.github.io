@@ -1,0 +1,11 @@
+<svg version="1.1" id="Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+  <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="23.9995" y1="0" x2="23.9995" y2="48.0005">
+  	<stop  offset="0" style="stop-color:#FFFFFF"/>
+  	<stop  offset="1" style="stop-color:#EAEAEA"/>
+  </linearGradient>
+  <path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_1_)" d="M48,42c0,3.313-2.687,6-6,6H6c-3.313,0-6-2.687-6-6V6
+  	c0-3.313,2.687-6,6-6h36c3.313,0,6,2.687,6,6V42z"/>
+  <path stroke="null" d="m35.184394,39.286462l-22.290486,0c-4.254054,0 -7.715937,-3.868851 -7.715937,-8.622997c0,-4.17353 2.666285,-7.737702 6.340786,-8.477364l1.335715,-0.268271l0.07373,-1.513815c0.317211,-6.605216 5.197113,-11.777097 11.11095,-11.777097c5.913837,0 10.793739,5.171882 11.109235,11.777097l0.07373,1.513815l1.337429,0.268271c3.672786,0.739661 6.340786,4.303833 6.340786,8.477364c0,4.754146 -3.461884,8.622997 -7.715937,8.622997m1.678645,-18.985923c-0.363506,-7.570991 -5.954989,-13.589843 -12.823888,-13.589843s-12.460382,6.018852 -12.823888,13.589843c-4.406658,0.887211 -7.751945,5.185295 -7.751945,10.362926c0,5.819565 4.22319,10.539218 9.43059,10.539218l22.290486,0c5.2074,0 9.43059,-4.719654 9.43059,-10.539218c0,-5.17763 -3.345288,-9.475715 -7.751945,-10.362926"/>
+  <text stroke="#000" transform="matrix(0.9110135916358786,0,0,0.9720050855502222,1.1799165473538231,0.0017645340025147505) " font-weight="bold" fill="#c0362c" stroke-width="0" x="14.832814" y="24.802544" id="svg_2" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">SF</text>
+  <text stroke="#000" transform="matrix(1.1401234958585889,0,0,1,-1.1639401209046654,0) " font-weight="bold" fill="#3fc9d3" stroke-width="0" x="8.748507" y="35.99102" id="svg_3" font-size="15" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve">AQI</text>
+</svg>
