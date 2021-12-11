@@ -1,5 +1,5 @@
 :root {
-	--bg-img: 'images/backgrounds/IMG_1309.jpg';
+	--bg-img: '../images/backgrounds/IMG_1309.jpg';
 }
 
 html {
