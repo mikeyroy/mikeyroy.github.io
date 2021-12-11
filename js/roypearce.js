@@ -1,6 +1,7 @@
 var RP = {
 	initialize: function() {
 		// this.setupAudio();
+		document.body.className += `bg-${Math.floor(Math.random() * 25)}`;
 		this.setupAnimations();
 	},
 
