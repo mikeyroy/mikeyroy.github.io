@@ -1,3 +1,7 @@
+:root {
+	--bg-img: 'images/backgrounds/IMG_1309.jpg';
+}
+
 html {
 	min-height: 100%;
 }
@@ -5,7 +9,7 @@ html {
 body {
 	font-family: 'Metrophobic', sans-serif;
 	margin: 0;
-	background: url(/api/background) no-repeat center center fixed;
+	background: url(var(--bg-img)) no-repeat center center fixed;
 	background-size: 100%;
 	background-size: cover;
 	overflow-y: hidden;
