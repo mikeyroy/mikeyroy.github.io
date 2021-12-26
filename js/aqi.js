@@ -38,7 +38,7 @@ const main = async () => {
     });
     if (testKey.status !== 201) {
       alert('Invalid API Key');
-      reload();
+      location.reload();
     }
     localStorage.setItem('sensorId', sensorId);
   }
