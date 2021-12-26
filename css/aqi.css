@@ -1,0 +1,189 @@
+body {
+  font-family: Metrophobic;
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.pulse {
+  animation: pulse 200s linear infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.title {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.aqi {
+  font-size: 12vw;
+  padding: 3vh 0;
+}
+
+.message {
+  font-size: 3vw;
+}
+
+.columns {
+  display: flex;
+  font-size: 10vw;
+  padding: 6vh 4vw;
+}
+
+.columns > div {
+  position: relative;
+  flex: 1;
+}
+
+.columns .title {
+  display: block;
+  font-size: 4vw;
+}
+
+.pressure-scale {
+  top: -1000vw;
+}
+
+.delete-location {
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+}
+
+.flash {
+  filter: invert(0);
+  animation: flash 3s infinite linear;
+}
+
+@keyframes flash {
+  0% {
+    filter: invert(0);
+  }
+  50% {
+    filter: invert(0);
+  }
+  51% {
+    filter: invert(1);
+  }
+  99% {
+    filter: invert(1);
+  }
+}
+
+.scale {
+  transform: scale(1.2);
+  position: absolute;
+  top: 4.2vw;
+  right: 2vw;
+  width: 1vw;
+  height: 11vw;
+  border-left: 0.1vw solid black;
+  box-sizing: border-box;
+  margin-left: 1vw;
+}
+
+.scale:before,
+.scale:after {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  border: 0.25vw solid black;
+  border-radius: 1vw;
+  width: 1vw;
+  height: 1vw;
+  left: -0.55vw;
+  background-color: #ffffff;
+}
+
+.scale:before {
+  top: 0;
+}
+
+.scale:after {
+  bottom: 0;
+}
+
+.scale span {
+  position: absolute;
+  margin: 0.25vw;
+  left: -0.55vw;
+  background-color: red;
+  width: 0.5vw;
+  height: 0.5vw;
+  border-radius: 0.5vw;
+  box-sizing: border-box;
+  z-index: 1
+}
+
+.green {
+  background-color: #00cc00;
+  animation: green 100s infinite alternate;
+}
+
+@keyframes green {
+  100% {
+    background-color: #0a6001;
+  }
+}
+
+.yellow {
+  background-color: #ffff00;
+  animation: yellow 100s infinite alternate;
+}
+
+@keyframes yellow {
+  100% {
+    background-color: #bab233;
+  }
+}
+
+.orange {
+  background-color: #ff6600;
+  animation: orange 100s infinite alternate;
+}
+
+@keyframes orange {
+  100% {
+    background-color: #a54403;
+  }
+}
+
+.red {
+  background-color: #ff0000;
+  animation: red 100s infinite alternate;
+}
+
+@keyframes red {
+  100% {
+    background-color: #a20808;
+  }
+}
+
+.violet {
+  background-color: #99004c;
+  animation: violet 100s infinite alternate;
+}
+
+@keyframes violet {
+  100% {
+    background-color: #67183f;
+  }
+}
+
+.hazard {
+  background-color: #730023;
+  animation: hazard 100s infinite alternate;
+}
+
+@keyframes hazard {
+  100% {
+    background-color: #3f0617;
+  }
+}
