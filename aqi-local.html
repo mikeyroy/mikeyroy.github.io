@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>AQI</title>
+		<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1 user-scalable=0">
+		<meta name="theme-color" content="#2196F3">
+		<meta name="description" content="Displays the AQI for a specific PurpleAir sensor in real-time. Automatically refreshes at a pre-set interval.">
+		<link href="//fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700|Metrophobic" rel="stylesheet" type="text/css" defer>
+    <link rel="stylesheet" href="css/aqi.css" media="all">
+		<link rel="shortcut icon" href="images/m.ico">
+	</head>
+	<body>
+		<div class="pulse" id="content-container">
+			<div class="aqi">
+			  <span class="title">AQI</span>
+				<span id="aqi">---</span>
+			</div>
+			<div class="message">
+				Air quality is <span id="category">---</span>
+				<span id="message"></span>
+			</div>
+			<div class="columns">
+				<div class="temperature">
+			  	<span id="temperature">---</span>&deg;
+					<span class="title">Temperature</span>
+				</div>
+				<div class="pressure">
+					<span id="pressure">---</span>
+					<span class="title">Pressure</span>
+					<div class="scale">
+						<span id="pressure-scale" class="pressure-scale"></span>
+					</div>
+				</div>
+				<div class="humidity">
+	  			<span id="humidity">---</span>%
+					<span class="title">Humidity</span>
+				</div>
+			</div>
+      <div class="location">
+        <span class="title">Location:</span>
+        <span id="location">---</span>
+        <button class="delete-location" id="delete-location">(delete)</button>
+      </div>
+			<div class="lastUpdated">
+				<span class="title">Last updated:</span>
+				<span id="lastUpdated">---</span>
+			</div>
+		</div>
+
+    <script src="https://unpkg.com/aqi-calculator@1.0.2/dist/aqi-calculator.min.js"></script>
+		<script src="js/aqi-local.js"></script>
+	</body>
+</html>
